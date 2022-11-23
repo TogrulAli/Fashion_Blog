@@ -1,0 +1,558 @@
+@font-face {
+  font-family: allFont;
+  src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+.header1 {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  height: 3rem;
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .header1 {
+    display: none;
+  }
+}
+.header1 > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-top: 0.2rem;
+}
+
+.header1 li {
+  float: left;
+}
+
+.header1 li:hover {
+  background-color: rgb(158, 158, 158);
+  padding: 9px 20px;
+}
+
+.header1 > ul > li {
+  display: inline-block;
+  padding: 9px 20px;
+}
+
+.header1 a {
+  color: white;
+}
+
+.header1 li:last-child {
+  float: right;
+  padding-right: 1rem;
+}
+
+.header2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: aqua;
+  height: 15rem;
+  line-height: 3rem;
+  font-size: 1.5rem;
+}
+
+#main1Span1 {
+  background-color: black;
+  color: white;
+  padding: 0.6rem;
+}
+
+.header3 {
+  flex-wrap: wrap;
+  overflow: hidden;
+  position: relative;
+}
+
+.header3 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header3 h1 {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top: 65%;
+  left: 5%;
+}
+
+.header3 h2 {
+  position: absolute;
+  color: white;
+  font-size: 50px;
+  top: 70%;
+  left: 5%;
+}
+
+#subscribeButton:hover {
+  background-color: rgb(255, 253, 253);
+}
+
+.header3 #subscribeButton {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px 30px;
+  opacity: 0.7;
+  background-color: grey;
+}
+
+main {
+  display: flex;
+  height: auto;
+  background-color: rgb(95, 93, 93);
+}
+
+.allTitleHead {
+  width: 70%;
+}
+
+.advertisement {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.titleHead {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  height: auto;
+  margin: 1rem 2rem;
+  padding: 2rem;
+}
+
+.titleHead h1 {
+  padding-bottom: 1.5rem;
+}
+
+.titleHead h3 {
+  padding-bottom: 1.5rem;
+}
+
+#spanGray {
+  color: grey;
+}
+
+.titleHead img {
+  padding-bottom: 1.5rem;
+}
+
+#spanBlack {
+  font-weight: 600;
+}
+
+.titleHead p {
+  text-align: justify;
+  margin-bottom: 1.5rem;
+}
+
+.titleHeadButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#titleHeadButton1 {
+  width: 7rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  font-weight: 700;
+  border: 1px solid rgb(168, 168, 168);
+  background-color: white;
+}
+
+#titleHeadButton1 i {
+  margin-right: 0.2rem;
+}
+
+#titleHeadButton1:hover {
+  background-color: rgb(168, 168, 168);
+}
+
+#titleHeadButton2 {
+  width: 9rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  font-weight: 700;
+  color: white;
+  border: none;
+  background-color: black;
+}
+
+#titleHeadButton2:hover {
+  background-color: rgb(214, 214, 214);
+  font-weight: 700;
+  width: 9rem;
+  padding: 1rem 2rem;
+  border: none;
+  color: black;
+}
+
+#titleHeadNumber {
+  width: 0.2rem;
+  border: solid black none;
+  background-color: white;
+  padding: 0 0.5rem;
+  color: black;
+  margin-left: 0.2rem;
+}
+
+.myName {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 2rem 1rem 0;
+  background-color: black;
+  color: white;
+}
+
+.myName h1 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.myName p {
+  margin: 1rem;
+  line-height: 1.5rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem 0 0;
+}
+
+.popularPost {
+  background-color: black;
+  color: white;
+  height: 4rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.cardContainer {
+  background-color: white;
+}
+
+.cardContainer ul {
+  padding: 0;
+  margin: 0;
+}
+
+.cardContainer li {
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  list-style-type: none;
+  display: flex;
+  position: relative;
+}
+
+.cardContainer li:hover {
+  background-color: rgb(218, 216, 216);
+}
+
+.cardContainer img {
+  width: 3rem;
+}
+
+#trends {
+  filter: sepia(100%);
+}
+
+.advert {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 2rem 1rem 0;
+}
+
+.advertTitle {
+  background-color: black;
+  color: white;
+  height: 4rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.adHere {
+  display: flex;
+  background-color: white;
+  height: 14rem;
+  padding: 1rem;
+}
+
+.adHereContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 25.5rem;
+  height: 12rem;
+  background-color: gray;
+}
+
+.tags {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem 1rem 0;
+}
+
+.tagTitle {
+  background-color: black;
+  color: white;
+  height: 4rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.tagSpan {
+  background-color: white;
+  height: auto;
+  padding: 1rem;
+}
+
+.tagSpan span:first-child {
+  color: white;
+  background-color: black;
+}
+
+.tagSpan span {
+  font-size: 1.1rem;
+  background-color: gray;
+  line-height: 2rem;
+  padding: 0 0.5rem;
+}
+
+.inspire {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem 1rem 0;
+}
+
+.inspireTitle {
+  background-color: black;
+  color: white;
+  height: 4rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.inspireCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  background-color: white;
+  padding: 1rem 0;
+}
+
+.inspireCard img {
+  width: 12rem;
+}
+
+.folowMe {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem 1rem 0;
+}
+
+.followMeTitle {
+  background-color: black;
+  color: white;
+  height: 4rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.followMeI {
+  background-color: white;
+  font-size: 2rem;
+  padding: 0.6rem 0 0 1rem;
+  height: 3.5rem;
+}
+
+.subscribtion {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem 1rem 0;
+}
+
+.subscribeTitle {
+  background-color: black;
+  color: white;
+  height: 4rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.formContent {
+  background-color: white;
+  padding: 1rem;
+  height: 13rem;
+  font-size: 1.2rem;
+}
+
+.formContent #email {
+  min-width: 100%;
+  padding: 0.7rem 0 0.7rem 0.2rem;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.formContent #btn {
+  background-color: rgb(255, 85, 85);
+  border-style: none;
+  min-width: 100%;
+  padding: 0.7rem 0;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.formContent #btn:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(196, 196, 196);
+}
+
+.footerMain {
+  background-color: gray;
+  padding: 2rem;
+  height: 12rem;
+}
+
+.footerBtn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: black;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.footerBtn a {
+  text-decoration: none;
+  color: white;
+  margin-left: 1rem;
+}
+
+footer > p {
+  font-size: 1.2rem;
+}
+
+.form-popup {
+  z-index: 3;
+  display: none;
+  padding-top: 300px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.forContainer {
+  margin: auto;
+  background-color: #fff;
+  position: relative;
+  padding: 2rem;
+  outline: 0;
+  width: 600px;
+  height: 250px;
+  border: 1px solid;
+}
+
+.spanSign {
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  padding: 1px 6px;
+}
+
+.spanSign:hover {
+  background-color: gray;
+  padding: 1px 6px;
+}
+
+.formMain {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.5rem;
+}
+
+.formMain h1 {
+  letter-spacing: 0.5rem;
+}
+
+input[type=email] {
+  font-size: 1rem;
+  padding: 0.7rem;
+}
+
+.formMain button {
+  margin: 1rem 0;
+  padding: 0.7rem;
+  background-color: red;
+  border-style: none;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.formMain button:hover {
+  background-color: rgb(209, 196, 196);
+}
+
+.popUpTitle, .popUpTitle1, .popUpTitle2 {
+  display: none;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  flex-direction: column;
+}
+
+.popUpTitleContainer, .popUpTitleContainer1, .popUpTitleContainer2 {
+  background-color: #fff;
+  display: flex;
+  position: relative;
+  margin-top: 1rem;
+}
+
+.popUpTitle img {
+  width: 6rem;
+}
+
+.popUpTitleSpan {
+  font-weight: 900;
+}
+
+.popUpTitleP {
+  margin: 0 0.2rem 0 2rem;
+}
+
+.firstHr {
+  margin-top: 3rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}/*# sourceMappingURL=main.css.map */

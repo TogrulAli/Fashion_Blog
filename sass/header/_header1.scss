@@ -1,0 +1,46 @@
+.header1 {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .header1 {
+        display: none;
+    }
+    
+}
+
+.header1 > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-top: .2rem;
+}
+
+.header1 li {
+    float: left;
+}
+
+.header1 li:hover {
+    background-color: rgb(158, 158, 158);
+    padding: 9px 20px;
+}
+
+.header1 > ul > li {
+    display: inline-block;
+    padding: 9px 20px;
+}
+
+.header1 a {
+    color: white;
+}
+
+.header1 li:last-child {
+    float: right;
+    padding-right: 1rem;
+}
+

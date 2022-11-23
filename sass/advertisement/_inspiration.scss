@@ -1,0 +1,28 @@
+.inspire {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem 1rem 0;
+}
+
+.inspireTitle {
+    background-color: black;
+    color: white;
+    height: 4rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.inspireCard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    background-color: white;
+    padding: 1rem 0;
+}
+
+.inspireCard img {
+    width: 12rem;
+}

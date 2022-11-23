@@ -1,0 +1,85 @@
+.titleHead {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    height: auto;
+    margin: 1rem 2rem;
+    padding: 2rem;
+}
+
+.titleHead h1 {
+    padding-bottom: 1.5rem;
+}
+
+.titleHead h3 {
+    padding-bottom: 1.5rem;
+}
+
+#spanGray {
+    color: grey;
+}
+
+.titleHead img {
+    padding-bottom: 1.5rem;
+}
+
+#spanBlack {
+    font-weight: 600;
+}
+
+.titleHead p {
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}
+
+.titleHeadButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#titleHeadButton1 {
+    width: 7rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-weight: 700;
+    border: 1px solid rgb(168, 168, 168);
+    background-color: white;
+}
+
+#titleHeadButton1 i {
+    margin-right: .2rem;
+}
+
+#titleHeadButton1:hover {
+    background-color: rgb(168, 168, 168);
+}
+
+#titleHeadButton2 {
+    width: 9rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-weight: 700;
+    color: white;
+    border: none;
+    background-color: black;
+}
+
+#titleHeadButton2:hover {
+    background-color: rgb(214, 214, 214);
+    font-weight: 700;
+    width: 9rem;
+    padding: 1rem 2rem;
+    border: none;
+    color: black;
+}
+
+#titleHeadNumber {
+    width: .2rem;
+    border: solid black none;
+    background-color: white;
+    padding: 0 .5rem;
+    color: black;
+    margin-left: .2rem;
+}

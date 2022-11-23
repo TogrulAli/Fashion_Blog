@@ -1,0 +1,60 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem 0 0;
+}
+
+.popularPost {
+    background-color: black;
+    color: white;
+    height: 4rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.cardContainer {
+    // display: flex;
+    // flex-direction: column;
+    // position: relative;
+    
+    background-color: white;
+}
+
+.cardContainer ul {
+    padding: 0;
+    margin: 0;
+    // display:flex;
+    // flex-direction: column;
+}
+
+.cardContainer li {
+    padding: .5rem .5rem .5rem 1rem;
+    list-style-type: none;
+    display: flex;
+    position: relative;
+}
+
+.cardContainer li:hover {
+    background-color: rgb(218, 216, 216);
+}
+
+.cardContainer img {
+    width: 3rem;
+}
+
+// .cardContainer li h1 {
+//     width: 22rem;
+//     float: right;
+//     margin-top: .6rem;
+// }
+
+// .cardContainer li p {
+//     width: 22rem;
+//     float: right;
+// }
+
+#trends {
+    filter: sepia(100%);
+}
+
+

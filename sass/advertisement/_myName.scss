@@ -1,0 +1,17 @@
+.myName {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem 1rem 0;
+    background-color: black;
+    color: white;
+}
+
+.myName h1 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.myName p {
+    margin: 1rem;
+    line-height: 1.5rem;
+}

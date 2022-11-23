@@ -1,0 +1,27 @@
+.footerMain {
+    // display: flex;
+    // flex-direction: column;
+    background-color: gray;
+    padding: 2rem;
+    height: 12rem;
+}
+
+.footerBtn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: black;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.footerBtn a {
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+}
+
+footer > p {
+    font-size: 1.2rem;
+}

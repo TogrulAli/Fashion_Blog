@@ -1,0 +1,32 @@
+.tags {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem 1rem 0;
+}
+
+.tagTitle {
+    background-color: black;
+    color: white;
+    height: 4rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.tagSpan {
+    background-color: white;
+    height: auto;
+    padding: 1rem;
+}
+
+.tagSpan span:first-child {
+    color: white;
+    background-color: black;
+}
+
+.tagSpan span {
+    font-size: 1.1rem;
+    background-color: gray;
+    line-height: 2rem;
+    padding: 0 .5rem;
+    // margin-right: .1rem;
+}

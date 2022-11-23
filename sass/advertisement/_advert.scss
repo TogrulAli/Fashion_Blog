@@ -1,0 +1,30 @@
+.advert {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 2rem 1rem 0;
+}
+
+.advertTitle {
+    background-color: black;
+    color: white;
+    height: 4rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.adHere {
+    display: flex;
+    background-color: white;
+    height: 14rem;
+    padding: 1rem;
+}
+
+.adHereContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 25.5rem;
+    height: 12rem;
+    background-color: gray;
+}

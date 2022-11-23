@@ -1,0 +1,27 @@
+@font-face {
+    font-family: allFont;
+    src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+
+@import 'header/header1';
+@import 'header/header2';
+@import 'header/header3';
+@import 'mainContainer/main1';
+@import 'mainContainer/titleHead';
+@import 'advertisement/myName';
+@import 'advertisement/card';
+@import 'advertisement/advert';
+@import 'advertisement/tag';
+@import 'advertisement/inspiration';
+@import 'advertisement/follow';
+@import 'advertisement/subscribe';
+@import 'footer/footerMain';
+@import 'popMe';
+@import 'mainContainer/popUpTitle';
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
