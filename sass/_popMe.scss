@@ -13,6 +13,7 @@
   .forContainer {
     margin: auto;
     background-color: #fff;
+    display: block;
     position: relative;
     padding: 2rem;
     outline: 0;
@@ -21,7 +22,13 @@
     border: 1px solid;
     
 }
-  
+
+.formMain {
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5rem;
+}
+
 .spanSign {
     cursor: pointer;
     font-size: 2rem;
@@ -39,11 +46,6 @@
     padding: 1px 6px;
 }
 
-.formMain {
-    display: flex;
-    flex-direction: column;
-    line-height: 2.5rem;
-}
 
 .formMain h1 {
     letter-spacing: .5rem;

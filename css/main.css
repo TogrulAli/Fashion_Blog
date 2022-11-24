@@ -468,12 +468,19 @@ footer > p {
 .forContainer {
   margin: auto;
   background-color: #fff;
+  display: block;
   position: relative;
   padding: 2rem;
   outline: 0;
   width: 600px;
   height: 250px;
   border: 1px solid;
+}
+
+.formMain {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.5rem;
 }
 
 .spanSign {
@@ -491,12 +498,6 @@ footer > p {
 .spanSign:hover {
   background-color: gray;
   padding: 1px 6px;
-}
-
-.formMain {
-  display: flex;
-  flex-direction: column;
-  line-height: 2.5rem;
 }
 
 .formMain h1 {
